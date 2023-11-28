@@ -55,6 +55,10 @@ SUB HEADER
     border: 1px solid black;
 }
 
+#subHeadImg div:nth-child(1) {
+    flex: 2 1 0;
+}
+
 /*
 MAIN
 */
