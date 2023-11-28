@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+HEADER
+*/
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 30px;
+}
+
+#titleImg {
+    height: 600px;
+    background-image: url(../../media/images/going.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*
+SUB HEADER
+*/
+#subHead {
+    display: flex;
+    flex-direction: column;
+}
+
+#subHeadTitle {
+    height: 200px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subHeadImg {
+    height: 200px;
+    display: flex;
+    gap: 10px;
+    padding: 100px 150px;
+}
+
+#subHeadImg div {
+    flex: 1 1 0;
+    border: 1px solid black;
+}
+
+/*
+MAIN
+*/
+main {
+    display: flex;
+    height: 800px;
+}
+
+#mainLeft {
+    flex: 1 1 25%;
+}
+
+#mainRight {
+    flex: 1 1 75%;
+    background: repeating-linear-gradient(45deg,
+            #ffffff,
+            #ffffff 10px,
+            #000000 10px,
+            #000000 20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    font-size: 98px;
+}
+
+/*
+FOOTER
+*/
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#footTop {
+    height: 200px;
+    background-color: whitesmoke;
+}
+
+#footBtm {
+    height: 200px;
+    background-color: slategray;
+}
