@@ -1,0 +1,69 @@
+@font-face {
+    font-family: josefinThin;
+    src: url(fonts/Josefin_Sans/JosefinSans-Thin.ttf);
+}
+
+@font-face {
+    font-family: josefinThinItalic;
+    src: url(fonts/Josefin_Sans/JosefinSans-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: josefinXLight;
+    src: url(fonts/Josefin_Sans/JosefinSans-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: josefinXLightItalic;
+    src: url(fonts/Josefin_Sans/JosefinSans-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: josefinLight;
+    src: url(fonts/Josefin_Sans/JosefinSans-Light.ttf);
+}
+
+@font-face {
+    font-family: josefinXLightItalic;
+    src: url(fonts/Josefin_Sans/JosefinSans-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: josefinSansMedium;
+    src: url(fonts/Josefin_Sans/JosefinSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: josefinSansMediumItalic;
+    src: url(fonts/Josefin_Sans/JosefinSans-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: josefinSans;
+    src: url(fonts/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: josefinSansBold;
+    src: url(fonts/Josefin_Sans/JosefinSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: josefinSansBoldItalic;
+    src: url(fonts/Josefin_Sans/JosefinSans-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: josefinSansSemiBold;
+    src: url(fonts/Josefin_Sans/JosefinSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: josefinSansSemiBoldItalic;
+    src: url(fonts/Josefin_Sans/JosefinSans-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Barcode;
+    src: url(fonts/Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf);
+}
