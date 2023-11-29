@@ -36,15 +36,15 @@ function render_structure (parent)
 
     return {
         header: parent.querySelector("header"),
-        title: parent.querySelector("title"),
-        topimg: parent.querySelector("topimg"),
-        slogan: parent.querySelector("slogan"),
-        bottomimg: parent.querySelector("bottomimg"),
+        title: parent.querySelector("#title"),
+        topimg: parent.querySelector("#topimg"),
+        slogan: parent.querySelector("#slogan"),
+        bottomimg: parent.querySelector("#bottomimg"),
         main: parent.querySelector("main"),
-        content: parent.querySelector("content"),
-        aboutus: parent.querySelector("aboutus"),
+        content: parent.querySelector("#content"),
+        aboutus: parent.querySelector("#aboutus"),
         footer: parent.querySelector("footer"),
-        bottomleft: parent.querySelector("bottomleft"),
-        bottomright: parent.querySelector("bottomright"),
+        bottomleft: parent.querySelector("#bottomleft"),
+        bottomright: parent.querySelector("#bottomright"),
     };   
 }
