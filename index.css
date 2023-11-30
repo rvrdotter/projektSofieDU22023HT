@@ -62,3 +62,8 @@
     font-family: josefinSansSemiBoldItalic;
     src: url(fonts/Josefin_Sans/JosefinSans-SemiBoldItalic.ttf);
 }
+
+@font-face {
+    font-family: Barcode;
+    src: url(fonts/Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf);
+}
