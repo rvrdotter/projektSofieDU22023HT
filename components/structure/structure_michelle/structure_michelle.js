@@ -16,7 +16,7 @@ function render_structure ()
 
   return {
     header: container.querySelector("header"),
-    wrapperPictures: container.querySelector("#pictures"),
+    pictures: container.querySelector("#pictures"),
     shopContent: container.querySelector("#shop_content"),
     left: container.querySelector("#left"),
     right: container.querySelector("#right"),
