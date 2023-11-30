@@ -22,7 +22,7 @@ function createStructure(parent) {
         gridContainer: document.querySelector(".right"),
     };
 };
-
+///
 
 //const structure_elements = createStructure(document.body);
 
