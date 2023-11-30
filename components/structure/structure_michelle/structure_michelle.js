@@ -1,7 +1,6 @@
-function render_structure ()
+function render_structure (parent)
 {
-  const container = document.querySelector("#wrapper");
-  container.innerHTML = `
+  parent.innerHTML = `
     <header></header>
     <main>
       <div id="pictures"></div>
