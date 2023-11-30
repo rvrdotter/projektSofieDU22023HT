@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*
+HEADER
+*/
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+SUB HEADER
+*/
+#subHead {
+    display: flex;
+    flex-direction: column;
+}
+
+#subHeadTitle {
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subHeadImg {
+    display: flex;
+}
+
+/*
+MAIN
+*/
+main {
+    display: flex;
+}
+
+#mainLeft {
+    flex: 1 1 25%;
+}
+
+#mainRight {
+    flex: 1 1 75%;
+}
+
+/*
+FOOTER
+*/
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#footTop {
+    background-color: whitesmoke;
+}
+
+#footBtm {
+    background-color: slategray;
+}
