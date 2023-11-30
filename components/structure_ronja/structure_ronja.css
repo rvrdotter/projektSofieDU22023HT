@@ -12,19 +12,9 @@ header {
 }
 
 #title {
-    height: 200px;
-    background-color: antiquewhite;
     display: flex;
     align-items: center;
     justify-content: center;
-    letter-spacing: 30px;
-}
-
-#titleImg {
-    height: 600px;
-    background-image: url(../../media/images/going.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 /*
@@ -36,7 +26,6 @@ SUB HEADER
 }
 
 #subHeadTitle {
-    height: 200px;
     background-color: beige;
     display: flex;
     justify-content: center;
@@ -44,19 +33,7 @@ SUB HEADER
 }
 
 #subHeadImg {
-    height: 200px;
     display: flex;
-    gap: 10px;
-    padding: 100px 150px;
-}
-
-#subHeadImg div {
-    flex: 1 1 0;
-    border: 1px solid black;
-}
-
-#subHeadImg div:nth-child(1) {
-    flex: 2 1 0;
 }
 
 /*
@@ -64,7 +41,6 @@ MAIN
 */
 main {
     display: flex;
-    height: 800px;
 }
 
 #mainLeft {
@@ -73,16 +49,6 @@ main {
 
 #mainRight {
     flex: 1 1 75%;
-    background: repeating-linear-gradient(45deg,
-            #ffffff,
-            #ffffff 10px,
-            #000000 10px,
-            #000000 20px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: aqua;
-    font-size: 98px;
 }
 
 /*
@@ -94,11 +60,9 @@ footer {
 }
 
 #footTop {
-    height: 200px;
     background-color: whitesmoke;
 }
 
 #footBtm {
-    height: 200px;
     background-color: slategray;
 }
