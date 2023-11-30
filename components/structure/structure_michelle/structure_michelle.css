@@ -1,0 +1,29 @@
+.shop_content {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    margin-bottom: 80px;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+#right {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 30px;
+  }
+
+.about_us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 207, 207);
+    height: 300px;
+}
+
+footer {
+    height: 300px;
+}
