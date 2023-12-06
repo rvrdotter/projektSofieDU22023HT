@@ -1,3 +1,16 @@
+<<<<<<< Updated upstream
+=======
+body {
+    margin: 0;
+}
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
 @font-face {
     font-family: josefinThin;
     src: url(fonts/Josefin_Sans/JosefinSans-Thin.ttf);
@@ -61,4 +74,12 @@
 @font-face {
     font-family: josefinSansSemiBoldItalic;
     src: url(fonts/Josefin_Sans/JosefinSans-SemiBoldItalic.ttf);
+<<<<<<< Updated upstream
+=======
+}
+
+@font-face {
+    font-family: Barcode;
+    src: url(fonts/Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf);
+>>>>>>> Stashed changes
 }
