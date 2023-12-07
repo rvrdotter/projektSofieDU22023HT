@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    flex-direction: column;
+
+    background-color: red;
+
+    height: 200px;
+}
+
+main {
+    display: flex;
+    gap: 5%;
+    margin: 30px 100px;
+
+    height: 800px;
+
+}
+
+#filter {
+    flex-basis: 30%;
+
+    background-color: green;
+}
+
+#products {
+    flex-grow: 1;
+
+    background-color: blue;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+
+    background-color: goldenrod;
+    height: 200px;
+
+}
