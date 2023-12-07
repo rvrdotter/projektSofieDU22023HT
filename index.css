@@ -1,3 +1,14 @@
+
+body {
+    margin: 0;
+}
+
+
+
+
+
+
+
 @font-face {
     font-family: josefinThin;
     src: url(fonts/Josefin_Sans/JosefinSans-Thin.ttf);
@@ -67,3 +78,4 @@
     font-family: Barcode;
     src: url(fonts/Libre_Barcode_39_Text/LibreBarcode39Text-Regular.ttf);
 }
+
