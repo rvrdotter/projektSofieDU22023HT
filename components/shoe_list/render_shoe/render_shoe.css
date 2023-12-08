@@ -1,4 +1,9 @@
 
+* {
+    font-family: josefinSans;
+}
+
+
 #shoe_container {
     display: flex;
     flex-direction: column;
@@ -11,16 +16,17 @@
 
 .shoe_title {
     margin: 20px 0;
+
+    font-size: 18px;
 }
 
-.shoe_type {
-    
-}
-
+.shoe_type,
 .shoe_country {
-    
+    font-size: 14px;
 }
+
 
 .shoe_price {
-    
+    font-family: josefinSansSemiBold;    
+    font-size: 18px;
 }
