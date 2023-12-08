@@ -3,7 +3,7 @@
 
 function render_shoe (parent, shoe) {
     const container = document.createElement("div");
-    container.id = "shoe_container";
+    container.classList.add("shoe_container");
     parent.appendChild(container);
 
     const image = array_find(SHOES, function(x) {return x.id === shoe.file_name});
