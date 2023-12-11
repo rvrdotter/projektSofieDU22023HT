@@ -11,7 +11,7 @@ function render_shoe_list (parent, shoes) {
 
 function update_shoe_list () {
     const container = document.querySelector("#shoe_list_container");
-    const shoes = filter_shoes();
+    const shoes = SHOES;
 
     for (let shoe of shoes) {
         render_shoe(container, shoe);
