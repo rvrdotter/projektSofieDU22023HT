@@ -1,5 +1,35 @@
 #priceRangeSlider{
     height: 100px;
-   
 }
+
+#text_maxPrice {
+    display: flex;
+    font-size: 30px;
+    margin: 20px 50px;
+}
+
+#priceBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2px;
+    margin: 0 50px;
+    font-size: 15px;
+
+    height: 30px;
+    width: 50px;
+    border: 1px solid black;
+}
+
+input {
+    display: flex;    
+    margin: 40px 50px;
+}
+
+input[type="range"] {
+    height: 7px;
+    accent-color: black;
+  }
+  
 
