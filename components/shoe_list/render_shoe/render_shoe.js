@@ -6,6 +6,7 @@ function render_shoe (parent, shoe) {
     container.classList.add("shoe_container");
     parent.appendChild(container);
 
+    // konstanter som innehåller vägen till värdet i databasen
     const image = shoe.file_name; 
     const title = shoe.name;
    
@@ -23,6 +24,6 @@ function render_shoe (parent, shoe) {
         <p class ="shoe_type">${type}</p>
         <p class ="shoe_country">${country}</p>
         <p class ="shoe_price">${price} kr</p>
-    `;
+    `; // skapar html strukturen och ger alla element klasser som sedan stylas i css
 }
 
