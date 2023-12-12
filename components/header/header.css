@@ -1,4 +1,4 @@
-div:first-of-type {
+ header div:first-of-type {
     text-align: center;
     
     padding: 100px;
@@ -6,12 +6,12 @@ div:first-of-type {
     font-size: 80px;
 }
 
-img:first-of-type {
+header img:first-of-type {
     height: 500px;
     object-fit: cover;
 }
 
-div:nth-of-type(2) {
+header div:nth-of-type(2) {
     text-align: center;
 
     padding: 100px;
@@ -19,7 +19,7 @@ div:nth-of-type(2) {
 
 }
 
-.bottomimg {
+header .bottomimg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,7 @@ div:nth-of-type(2) {
     gap: 15px;
 }
 
-.bottomimg img {
+header .bottomimg img {
     height: 250px;
 
 }

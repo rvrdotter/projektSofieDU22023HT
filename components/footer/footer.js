@@ -1,13 +1,18 @@
 function render_aboutUs(aboutUs) {
     
     aboutUs.innerHTML = `
-    <h1>Test</h1>
+    <div>ABOUT US</div>
 `;
 }
 
 function render_info(info) {
     
     info.innerHTML = `
-    <h1>Test</h1>
+    <div>Choose Your Shoes©</div>
+    <div id="inforight">
+        <div>FAQ</div>
+        <div>Shipping</div>
+        <div>Contact</div>
+    </div>
 `;
 }

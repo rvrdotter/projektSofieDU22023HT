@@ -1,0 +1,22 @@
+footer #aboutUs {
+    text-align: center;
+    
+    font-size: 25px;
+    font-weight: bold;
+    padding: 60px;
+    background-color: #C3BD9E;
+}
+
+footer #aboutUs div:first-of-type {
+    display: inline-block;
+    padding: 20px 80px;
+    background-color: white;
+}
+
+footer #info div:nth-of-type(1) {
+    font-family: josefinThin;
+}
+
+footer #inforight {
+    text-align: right;
+}
