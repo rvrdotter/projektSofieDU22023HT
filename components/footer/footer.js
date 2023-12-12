@@ -8,11 +8,11 @@ function render_aboutUs(aboutUs) {
 function render_info(info) {
     
     info.innerHTML = `
-    <div>Choose Your Shoes©</div>
     <div id="inforight">
         <div>FAQ</div>
         <div>Shipping</div>
         <div>Contact</div>
     </div>
+    <div id=copyright>Choose Your Shoes©</div>
 `;
 }

@@ -13,10 +13,13 @@ footer #aboutUs div:first-of-type {
     background-color: white;
 }
 
-footer #info div:nth-of-type(1) {
+footer #copyright {
+    flex-direction: column-reverse;
     font-family: josefinThin;
 }
 
 footer #inforight {
     text-align: right;
+    margin: 20px 30px 0 0;
+    line-height: 30px;
 }
