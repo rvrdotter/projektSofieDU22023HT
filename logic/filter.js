@@ -26,11 +26,11 @@ document.querySelector("#kindFilters").appendChild(test2);
 //or false if there aren't any.
 function filterData() {
     let selectedDataPoints = SHOES;
-    if (probeFilters("kinds")) {
-        selectedDataPoints = filterByKinds(selectedDataPoints);
+    if (probeFilters("modell")) {
+        selectedDataPoints = filterByModell(selectedDataPoints);
     }
-    if (probeFilters("origin")) {
-        selectedDataPoints = filterByOrigin(selectedDataPoints);
+    if (probeFilters("country")) {
+        selectedDataPoints = filterByCountry(selectedDataPoints);
     }
     if (probeFilters("price")) {
         selectedDataPoints = filterByPrice(selectedDataPoints);
@@ -39,52 +39,52 @@ function filterData() {
 }
 
 function probeFilters(filter) {
-    const checkedFilters = document.querySelectorAll(`#${filter}Filters .checked`);
+    const checkedFilters = document.querySelectorAll(`#${filter}_filters .${filter}_checked`);
     return checkedFilters.length > 0;
 }
 
 //this function works and could be replicated to the filterByOrigin.
-function filterByKinds(data) {
+function filterByModell(data) {
     //gets the DOMs with .checked
-    const checkedKindElements = document.querySelectorAll("#kindFilters .checked .text");
-    const checkedKindNames = arrayTransform(checkedKindElements, function (element) {
+    const checkedModellElements = document.querySelectorAll("#modell_filter .checked_modell .modell_name");
+    const checkedModellNames = arrayTransform(checkedModellElements, function (element) {
         return element.textContent;
     });
     //uses names of the DOMs to get the KINDS object in question
-    const checkedKindObjects = arrayTransform(checkedKindNames, function (kindName) {
+    const checkedModellObjects = arrayTransform(checkedModellNames, function (modellName) {
         return arrayFind(KINDS, function (kind) {
-            return kind.name === kindName;
+            return kind.name === modellName;
         });
     });
     //gets IDs of kind objects in question
-    const checkedKindIds = arrayTransform(checkedKindObjects, function (kindObject) {
-        return kindObject.id;
+    const checkedModellIds = arrayTransform(checkedModellObjects, function (modellObject) {
+        return modellObject.id;
     })
 
     //filters the data and get the shoe objects of the chosen kinds.
     data = arrayFilter(data, function (dataPoint) {
-        return checkedKindIds.includes(dataPoint.kind_id);
+        return checkedModellIds.includes(dataPoint.kind_id);
     });
     return data;
 }
-function filterByOrigin(data) {
-    const checkedOriginElements = document.querySelectorAll("#originFilters .checked .text");
-    const checkedOriginNames = arrayTransform(checkedOriginElements, function (element) {
+function filterByCountry(data) {
+    const checkedCountryElements = document.querySelectorAll("#country_filter .checked_country .country_name");
+    const checkedCountryNames = arrayTransform(checkedCountryElements, function (element) {
         return element.textContent;
     });
 
-    const checkedOriginObjects = arrayTransform(checkedOriginNames, function (originName) {
+    const checkedCountryObjects = arrayTransform(checkedCountryNames, function (countryName) {
         return arrayFind(COUNTRIES, function (country) {
-            return country.name === originName;
+            return country.name === countryName;
         });
     });
 
-    const checkedOriginIds = arrayTransform(checkedOriginObjects, function (originObject) {
-        return originObject.id;
+    const checkedCountryIds = arrayTransform(checkedCountryObjects, function (countryObject) {
+        return countryObject.id;
     });
 
     data = arrayFilter(data, function (dataPoint) {
-        return checkedOriginIds.includes(dataPoint.country_id);
+        return checkedCountryIds.includes(dataPoint.country_id);
     });
 
 
