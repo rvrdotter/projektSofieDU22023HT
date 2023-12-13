@@ -22,7 +22,7 @@ function render_country_filter(parent) {
           `;
         container.appendChild(country_filter_button);
 
-        //container.append(country.name);
+
 
 
     }
