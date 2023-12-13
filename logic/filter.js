@@ -68,7 +68,27 @@ function filterByKinds(data) {
     return data;
 }
 function filterByOrigin(data) {
+    const checkedOriginElements = document.querySelectorAll("#originFilters .checked .text");
+    const checkedOriginNames = arrayTransform(checkedOriginElements, function (element) {
+        return element.textContent;
+    });
 
+    const checkedOriginObjects = arrayTransform(checkedOriginNames, function (originName) {
+        return arrayFind(COUNTRIES, function (country) {
+            return country.name === originName;
+        });
+    });
+
+    const checkedOriginIds = arrayTransform(checkedOriginObjects, function (originObject) {
+        return originObject.id;
+    });
+
+    data = arrayFilter(data, function (dataPoint) {
+        return checkedOriginIds.includes(dataPoint.country_id);
+    });
+
+
+    return data;
 }
 function filterByPrice(data) {
 
