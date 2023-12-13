@@ -1,8 +1,8 @@
 
-function render_modell_filters(parent) {
+function render_modell_filter(parent) {
 
     const box = document.createElement("div");
-    box.id = "modell_filters";
+    box.id = "modell_filter";
     parent.append(box);
 
     let text_modell = document.createElement("div");
@@ -12,12 +12,19 @@ function render_modell_filters(parent) {
     box.appendChild(text_modell);
 
     for (let modell of KINDS) {
-        let radio_knapp = document.createElement("div");
-        radio_knapp.innerHTML = `
-        <input type="radio" id="radio"></input>
-        `;
-        box.appendChild(radio_knapp);
-        box.append(modell.name);
+        let modell_filter_button = document.createElement("div");
+        modell_filter_button.classList.add("modell_container");
+        modell_filter_button.innerHTML = `
+         <div class="check_mark" ></div >
+         <p class="modell_name">${modell.name}</p>
+            `;
+        box.appendChild(modell_filter_button);
+
+
+        modell_filter_button.addEventListener("click", function () {
+            modell_filter_button.classList.toggle("checked_modell");
+
+        });
 
     }
 }
