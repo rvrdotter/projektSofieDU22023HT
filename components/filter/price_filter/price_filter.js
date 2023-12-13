@@ -1,7 +1,7 @@
 function render_price_filters (parent) {
    
     const priceContainer = document.createElement("div");
-    priceContainer.id = "priceRangeSlider";
+    priceContainer.id = "priceSliderContainer";
     parent.appendChild(priceContainer); 
 
     // input med type range är slidern 

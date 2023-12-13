@@ -32,6 +32,6 @@ footer {
     order: 2;
 }
 
-#filter #priceRangeSlider {
+#filter #priceSliderContainer {
     order: 3;
 }
