@@ -24,7 +24,7 @@ function render_country_filter(parent) {
 
 
         country_filter_button.addEventListener("click", function () {
-            country_filter_button.classList.toggle("checked");
+            country_filter_button.classList.toggle("checked_country");
         });
     }
 

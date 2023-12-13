@@ -15,6 +15,7 @@
     border-radius: 50%;
     border: 1px solid black;
     box-shadow: 1.2px 1px 1px gray;
+    transition: background-color .5s;
 }
 
 #text_origin {
@@ -28,6 +29,6 @@
     font-size: 13px;
 }
 
-.filter_container.checked .check_mark {
+.filter_container.checked_country .check_mark {
     background-color: black;
 }
