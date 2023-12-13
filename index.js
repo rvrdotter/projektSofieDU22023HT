@@ -1,6 +1,2 @@
-
-"use strict";
-
-const structure_containers = render_structure();
-
-// render_shoe_list(structure_containers.products);
+const structureElements = render_structure(document.body);
+render_modell_filter(structureElements.filter);
