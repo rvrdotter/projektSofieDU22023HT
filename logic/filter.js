@@ -32,9 +32,8 @@ function filterData() {
     if (probeFilters("country")) {
         selectedDataPoints = filterByCountry(selectedDataPoints);
     }
-    if (probeFilters("price")) {
-        selectedDataPoints = filterByPrice(selectedDataPoints);
-    }
+    selectedDataPoints = filterByPrice(selectedDataPoints);
+
     return selectedDataPoints;
 }
 
@@ -92,4 +91,16 @@ function filterByCountry(data) {
 }
 function filterByPrice(data) {
 
+    const maxPriceElement = document.querySelector("#productPrice");
+    let maxPriceString = maxPriceElement.textContent;
+
+    maxPriceString = maxPriceString.substring(0, maxPriceString.length - 3);// Get the first three characters
+    const maxPrice = parseInt(maxPriceString);
+
+    data = arrayFilter(data, function (dataPoint) {
+        return dataPoint.price <= maxPrice;
+    })
+
+    return data;
 }
+
