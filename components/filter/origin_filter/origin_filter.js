@@ -23,11 +23,9 @@ function render_country_filter(parent) {
         container.appendChild(country_filter_button);
 
 
-
-
+        country_filter_button.addEventListener("click", function () {
+            country_filter_button.classList.toggle("checked");
+        });
     }
 
-    country_filter_button.addEventListener("click", function () {
-        country_filter_button.classList.toggle("checked");
-    });
 }
