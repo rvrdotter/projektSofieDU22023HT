@@ -1,11 +1,9 @@
 function render_price_filters (parent) {
-    // variablen priceContainer är en div med id="priceRangeSlider"
-    // läggs till i parent som är body 
+   
     const priceContainer = document.createElement("div");
     priceContainer.id = "priceRangeSlider";
     parent.appendChild(priceContainer); 
 
-    // lägger till element i priceContainer
     // input med type range är slidern 
     // minsta värde på slidern är 0 och maxiamala är 1000
     priceContainer.innerHTML = `
