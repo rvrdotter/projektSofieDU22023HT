@@ -27,3 +27,7 @@
     font-family: josefinSansMedium;
     font-size: 13px;
 }
+
+.filter_container.checked .check_mark {
+    background-color: black;
+}
