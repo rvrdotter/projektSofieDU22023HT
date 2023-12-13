@@ -5,6 +5,7 @@ function render_country_filter(parent) {
     parent.append(container);
 
     let text_origin = document.createElement("div");
+    text_origin.id = "text_origin";
     text_origin.innerHTML = `
      <div id="text"> Tillverkningsland </div>
      `;
@@ -13,14 +14,20 @@ function render_country_filter(parent) {
 
 
     for (let country of COUNTRIES) {
-        let tempContainer = document.createElement("div");
-        tempContainer.innerHTML = `
-          <input type="radio" id="radio"> </input>
+        let country_filter_button = document.createElement("div");
+        country_filter_button.classList.add("filter_container");
+        country_filter_button.innerHTML = `
+        <div class="check_mark"></div>
+          <p class="country_name">${country.name}</p>
           `;
-        container.appendChild(tempContainer);
+        container.appendChild(country_filter_button);
 
-        container.append(country.name);
+        //container.append(country.name);
 
 
     }
+
+    country_filter_button.addEventListener("click", function () {
+        country_filter_button.classList.toggle("checked");
+    });
 }
