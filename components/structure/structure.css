@@ -10,6 +10,8 @@ main {
 }
 
 #filter {
+    display: flex;
+    flex-direction: column;
     flex-basis: 30%;
 }
 
@@ -20,4 +22,16 @@ main {
 footer {
     display: flex;
     flex-direction: column;
+}
+
+#filter #modell_filter {
+    order: 1;
+}
+
+#filter #country_filter {
+    order: 2;
+}
+
+#filter #priceRangeSlider {
+    order: 3;
 }
