@@ -21,7 +21,6 @@ function create_popup_about_us(parent) {
     })
 }
 
-
 // div_button ska vara referensen div-knappen som visar popup-en, finns i structure att hämta
 
 function create_popup_about_us_image(div_button) {

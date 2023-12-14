@@ -13,7 +13,6 @@
     flex-direction: column;
 }
 
-
 #popup-container-about-us {
     background-color: rgba(0,0,0,0.42);
     width: 100%;
@@ -27,7 +26,6 @@
     cursor: pointer;
     box-shadow:  2px -2px 188px 62px rgba(0,0,0,0.42);
 }
-
 
 #team_photo {
     background-image: url();
