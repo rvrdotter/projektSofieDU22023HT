@@ -15,5 +15,14 @@ function create_popup_about_us(parent) {
 
 
 function create_popup_about_us_image(div_button) {
+    div_button.addEventListener('click', function() {
 
+        const popup_content_div = document.querySelector('#popup-content-about-us');
+        popup_content_div.innerHTML = `
+        <div></div>
+        `;
+
+        const popup_container_div = document.querySelector('#popup-container-about-us');
+        popup_container_div.style.display = 'flex';
+    })
 }
