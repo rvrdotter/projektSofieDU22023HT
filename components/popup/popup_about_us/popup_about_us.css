@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+#popup-content-about-us {
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+#popup-container-about-us {
+    background-color: rgb(238, 238, 207);
+    width: 100%;
+    position: fixed;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow:  2px -2px 188px 62px rgba(0,0,0,0.42);
+    -webkit-box-shadow: 2px -2px 188px 62px rgba(0,0,0,0.42);
+    -moz-box-shadow: 2px -2px 188px 62px rgba(0,0,0,0.42);
+
+}
