@@ -1,3 +1,6 @@
+
+//skapar container div och content div till about us popup
+
 function create_popup_about_us(parent) {
     const container_div_about_us = document.createElement('div');
     const content_div_about_us = document.createElement('div');
