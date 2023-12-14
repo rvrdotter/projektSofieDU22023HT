@@ -7,6 +7,10 @@ function create_popup_about_us(parent) {
 
     container_div_about_us.appendChild(content_div_about_us);
     parent.appendChild(container_div_about_us);
+
+    container_div_about_us.addEventListener('click', function() {
+        container_div_about_us.style.display = 'none';
+    })
 }
 
 
