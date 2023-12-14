@@ -1,4 +1,4 @@
-function create_popup_about_us(parent){
+function create_popup_about_us(parent) {
     const container_div_about_us = document.createElement('div');
     const content_div_about_us = document.createElement('div');
 
@@ -7,4 +7,9 @@ function create_popup_about_us(parent){
 
     container_div_about_us.appendChild(content_div_about_us);
     parent.appendChild(container_div_about_us);
+}
+
+
+function create_popup_about_us_image(div_button) {
+
 }
