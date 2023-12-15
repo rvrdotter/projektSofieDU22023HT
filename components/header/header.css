@@ -1,0 +1,33 @@
+ header div:first-of-type {
+    text-align: center;
+    
+    padding: 100px;
+    font-family: Barcode;
+    font-size: 80px;
+}
+
+header img:first-of-type {
+    height: 500px;
+    object-fit: cover;
+}
+
+header div:nth-of-type(2) {
+    text-align: center;
+
+    padding: 100px;
+    font-size: 20px;
+
+}
+
+header .bottomimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15px;
+}
+
+header .bottomimg img {
+    height: 250px;
+
+}

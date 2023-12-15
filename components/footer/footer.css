@@ -1,0 +1,25 @@
+footer #aboutUs {
+    text-align: center;
+    
+    font-size: 25px;
+    font-weight: bold;
+    padding: 60px;
+    background-color: #C3BD9E;
+}
+
+footer #aboutUs div:first-of-type {
+    display: inline-block;
+    padding: 20px 80px;
+    background-color: white;
+}
+
+footer #copyright {
+    flex-direction: column-reverse;
+    font-family: josefinThin;
+}
+
+footer #inforight {
+    text-align: right;
+    margin: 20px 30px 0 0;
+    line-height: 30px;
+}
