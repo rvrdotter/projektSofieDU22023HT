@@ -1,4 +1,4 @@
-const structureElements = render_structure(document.body);
-render_modell_filter(structureElements.filter);
-render_price_filters(structureElements.filter);
-render_country_filter(structureElements.filter);
+const structure_containers = render_structure();
+render_modell_filter(structure_containers.filter);
+render_price_filters(structure_containers.filter);
+render_country_filter(structure_containers.filter);
