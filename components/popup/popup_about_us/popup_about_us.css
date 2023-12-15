@@ -6,6 +6,7 @@
     background-color: rgb(238, 233, 225);
     height: 500px;
     width: 70%;
+    max-width: 1000px;
     box-shadow:  2px -2px 188px 62px rgba(0,0,0,0.42);
     border-radius: 2px;
     display: flex; 
