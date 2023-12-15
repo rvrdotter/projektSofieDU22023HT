@@ -1,10 +1,8 @@
-function render_structure (parent) {
+function render_structure () {
     
-    const structure = document.createElement("div");
-    structure.id = "wrapper";
-    parent.appendChild(structure);
-
-    parent.innerHTML = `
+    const container = document.querySelector("body");
+    
+    container.innerHTML = `
         <header></header>
         <main>
             <div id="filter"></div>

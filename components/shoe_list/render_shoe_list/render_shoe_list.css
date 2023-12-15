@@ -1,0 +1,13 @@
+
+#shoe_list_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 20px;
+
+    height: 90vh;
+    overflow: scroll;
+
+    border: 1px solid black;
+}
+
