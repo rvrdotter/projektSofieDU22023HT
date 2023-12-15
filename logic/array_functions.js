@@ -1,4 +1,3 @@
-
 function arrayAvarage(array) {
     let sum = 0;
     for (let i = 0; i < array.length; i++) {
@@ -35,11 +34,3 @@ function arrayTransform(array, fn) {
         returnArray.push(fn(array[i]));
     }
     return returnArray;
-=======
-
-function array_find (array, testFunction) {
-    for (let element of array) {
-        if (testFunction(element)) {
-            return element;
-        } 
-    }
