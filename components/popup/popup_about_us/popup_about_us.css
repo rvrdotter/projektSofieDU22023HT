@@ -3,7 +3,7 @@
 }
 
 #popup-content-about-us {
-    background-color: rgb(250, 235, 215);
+    background-color: rgb(238, 233, 225);
     height: 500px;
     width: 70%;
     box-shadow:  2px -2px 188px 62px rgba(0,0,0,0.42);
@@ -28,7 +28,7 @@
 }
 
 #team_photo {
-    background-image: url();
+    background-image: url(../../../media/images/team.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
@@ -41,5 +41,5 @@
 
 #team_text {
     font-size: 20px;
-    font-family: Helvetica, sans-serif;
+    font-family: josefinSans;
 }
