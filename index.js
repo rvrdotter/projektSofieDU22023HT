@@ -4,6 +4,8 @@ render_price_filters(structure_containers.filter);
 render_country_filter(structure_containers.filter);
 
 render_header(structure_containers.header);
-render_aboutUs(structure_containers.aboutUs);
+const aboutUsButton = render_aboutUs(structure_containers.aboutUs);
+create_popup_about_us(structure_containers.aboutUs);
+create_popup_about_us_clickhandler(aboutUsButton);
 render_info(structure_containers.info);
 render_shoe_list(structure_containers.products);

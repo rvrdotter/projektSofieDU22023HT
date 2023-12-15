@@ -23,7 +23,7 @@ function create_popup_about_us(parent) {
 
 // div_button ska vara referensen div-knappen som visar popup-en, finns i structure att hämta
 
-function create_popup_about_us_image(div_button) {
+function create_popup_about_us_clickhandler(div_button) {
     div_button.addEventListener('click', function() {
         const popup_container_div = document.querySelector('#popup-container-about-us');
         popup_container_div.style.display = 'flex';

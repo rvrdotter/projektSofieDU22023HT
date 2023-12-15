@@ -1,8 +1,9 @@
 function render_aboutUs(aboutUs) {
     
     aboutUs.innerHTML = `
-    <div>ABOUT US</div>
-`;
+        <div id="aboutUsButton">ABOUT US</div>
+    `;
+    return document.querySelector("#aboutUsButton");
 }
 
 function render_info(info) {
