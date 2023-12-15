@@ -12,6 +12,7 @@ function render_shoe_list(parent, shoes) { // funktionen renderar containern til
 function update_shoe_list() {
     const container = document.querySelector("#shoe_list_container");
     const shoes = filterData(); // tar emot en filtrerad array av skor med dem skorna som uppfyller de ifyllda filternas krav
+    container.innerHTML = ``;
 
     for (let shoe of shoes) { // loopar igenom den filtrerade arrayen och renderar varje sko
         render_shoe(container, shoe);
