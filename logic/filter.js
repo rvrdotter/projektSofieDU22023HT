@@ -38,7 +38,7 @@ function filterData() {
 }
 
 function probeFilters(filter) {
-    const checkedFilters = document.querySelectorAll(`#${filter}_filters .${filter}_checked`);
+    const checkedFilters = document.querySelectorAll(`#${filter}_filter .checked_${filter}`);
     return checkedFilters.length > 0;
 }
 
