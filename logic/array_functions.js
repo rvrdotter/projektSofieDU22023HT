@@ -34,3 +34,4 @@ function arrayTransform(array, fn) {
         returnArray.push(fn(array[i]));
     }
     return returnArray;
+}
