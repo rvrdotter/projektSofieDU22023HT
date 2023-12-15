@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+#popup-content-about-us {
+    background-color: rgb(250, 235, 215);
+    height: 500px;
+    width: 70%;
+    box-shadow:  2px -2px 188px 62px rgba(0,0,0,0.42);
+    border-radius: 2px;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+
+#popup-container-about-us {
+    background-color: rgba(0,0,0,0.42);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow:  2px -2px 188px 62px rgba(0,0,0,0.42);
+}
+
+#team_photo {
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 3px;
+}
+
+#team_text {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+}
