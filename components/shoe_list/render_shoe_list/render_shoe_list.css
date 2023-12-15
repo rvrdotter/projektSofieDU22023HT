@@ -5,9 +5,8 @@
     row-gap: 40px;
     column-gap: 20px;
 
-    height: 90vh;
+    height: 150vh;
     overflow: scroll;
 
-    border: 1px solid black;
 }
 
