@@ -1,10 +1,10 @@
-function render_price_filters (parent) {
-   
+function render_price_filters(parent) {
+
     const priceContainer = document.createElement("div");
     priceContainer.id = "priceSliderContainer";
-    parent.appendChild(priceContainer); 
+    parent.appendChild(priceContainer);
 
-    
+
     priceContainer.innerHTML = `
         <div id="text_maxPrice"> Maxpris </div>
         <div id="priceBox">
@@ -16,10 +16,11 @@ function render_price_filters (parent) {
     const productPrice = document.getElementById('productPrice');
     const maxPriceSlider = document.getElementById('maxPriceSlider');
 
-   
+
     maxPriceSlider.addEventListener("input", function () {
         productPrice.textContent = `${maxPriceSlider.value} :- `;
+        update_shoe_list();
 
     });
-    
+
 }
