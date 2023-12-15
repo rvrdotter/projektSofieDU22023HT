@@ -23,6 +23,7 @@ function render_modell_filter(parent) {
 
         modell_filter_button.addEventListener("click", function () {
             modell_filter_button.classList.toggle("checked_modell");
+            update_shoe_list();
 
         });
 
