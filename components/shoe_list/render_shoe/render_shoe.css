@@ -14,6 +14,7 @@
 .shoe_image {
     width: 100%;
     height: 20vw;
+    cursor: pointer;
 }
 
 .shoe_title {
