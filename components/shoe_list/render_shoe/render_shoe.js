@@ -30,7 +30,7 @@ function render_shoe(parent, shoe) {
                 <p><b>${type}</b></p>
                 <p><b>Details:</b> ${title}</p>
                 <p><b>Made in:</b> ${country}</p>
-                <p><b>Price:</b> ${price}</p>
+                <p><b>Price:</b> ${price} kr</p>
                 <p>Average Score: ${review_average}</p>
             </div>
             <div id="top_right">
